@@ -9,13 +9,68 @@
 /* Begin PBXBuildFile section */
 		F4D41DE11AD46B110000D4F8 /* HackerTyperView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D41DE01AD46B110000D4F8 /* HackerTyperView.h */; };
 		F4D41DE31AD46B110000D4F8 /* HackerTyperView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D41DE21AD46B110000D4F8 /* HackerTyperView.m */; };
+		F4D41DF71AD46B320000D4F8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F4D41DF21AD46B320000D4F8 /* index.html */; };
+		F4D41DF91AD46D510000D4F8 /* HackerTyper.saver in CopyFiles */ = {isa = PBXBuildFile; fileRef = F4D41DDB1AD46B110000D4F8 /* HackerTyper.saver */; };
+		F4D41DFC1AD57EC00000D4F8 /* style.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = F4D41DEC1AD46B320000D4F8 /* style.css */; };
+		F4D41DFE1AD57ED10000D4F8 /* script.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = F4D41DEF1AD46B320000D4F8 /* script.js */; };
+		F4D41DFF1AD57ED10000D4F8 /* jquery.min.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = F4D41DEE1AD46B320000D4F8 /* jquery.min.js */; };
+		F4D41E011AD57EEA0000D4F8 /* kernel.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F4D41DF11AD46B320000D4F8 /* kernel.txt */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F4D41DF81AD46D3B0000D4F8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/Screen Savers";
+			dstSubfolderSpec = 0;
+			files = (
+				F4D41DF91AD46D510000D4F8 /* HackerTyper.saver in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D41DFB1AD57EAD0000D4F8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = _/css;
+			dstSubfolderSpec = 7;
+			files = (
+				F4D41DFC1AD57EC00000D4F8 /* style.css in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D41DFD1AD57EC80000D4F8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = _/js;
+			dstSubfolderSpec = 7;
+			files = (
+				F4D41DFE1AD57ED10000D4F8 /* script.js in CopyFiles */,
+				F4D41DFF1AD57ED10000D4F8 /* jquery.min.js in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D41E001AD57EE10000D4F8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = _/misc;
+			dstSubfolderSpec = 7;
+			files = (
+				F4D41E011AD57EEA0000D4F8 /* kernel.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F4D41DDB1AD46B110000D4F8 /* HackerTyper.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerTyper.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D41DDF1AD46B110000D4F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4D41DE01AD46B110000D4F8 /* HackerTyperView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackerTyperView.h; sourceTree = "<group>"; };
 		F4D41DE21AD46B110000D4F8 /* HackerTyperView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerTyperView.m; sourceTree = "<group>"; };
+		F4D41DEC1AD46B320000D4F8 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		F4D41DEE1AD46B320000D4F8 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		F4D41DEF1AD46B320000D4F8 /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		F4D41DF11AD46B320000D4F8 /* kernel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kernel.txt; sourceTree = "<group>"; };
+		F4D41DF21AD46B320000D4F8 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = hackertyper.net/index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +113,47 @@
 		F4D41DDE1AD46B110000D4F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F4D41DEA1AD46B320000D4F8 /* _ */,
+				F4D41DF21AD46B320000D4F8 /* index.html */,
 				F4D41DDF1AD46B110000D4F8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4D41DEA1AD46B320000D4F8 /* _ */ = {
+			isa = PBXGroup;
+			children = (
+				F4D41DEB1AD46B320000D4F8 /* css */,
+				F4D41DED1AD46B320000D4F8 /* js */,
+				F4D41DF01AD46B320000D4F8 /* misc */,
+			);
+			name = _;
+			path = hackertyper.net/_;
+			sourceTree = "<group>";
+		};
+		F4D41DEB1AD46B320000D4F8 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				F4D41DEC1AD46B320000D4F8 /* style.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		F4D41DED1AD46B320000D4F8 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				F4D41DEF1AD46B320000D4F8 /* script.js */,
+				F4D41DEE1AD46B320000D4F8 /* jquery.min.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		F4D41DF01AD46B320000D4F8 /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				F4D41DF11AD46B320000D4F8 /* kernel.txt */,
+			);
+			path = misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +178,10 @@
 				F4D41DD71AD46B110000D4F8 /* Frameworks */,
 				F4D41DD81AD46B110000D4F8 /* Headers */,
 				F4D41DD91AD46B110000D4F8 /* Resources */,
+				F4D41DF81AD46D3B0000D4F8 /* CopyFiles */,
+				F4D41DFB1AD57EAD0000D4F8 /* CopyFiles */,
+				F4D41DFD1AD57EC80000D4F8 /* CopyFiles */,
+				F4D41E001AD57EE10000D4F8 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -131,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D41DF71AD46B320000D4F8 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +327,7 @@
 				INFOPLIST_FILE = HackerTyper/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = ./Build;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -240,6 +339,7 @@
 				INFOPLIST_FILE = HackerTyper/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = ./Build;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;

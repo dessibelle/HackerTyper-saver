@@ -8,6 +8,10 @@
 
 #import <ScreenSaver/ScreenSaver.h>
 
+@class WebView;
+
 @interface HackerTyperView : ScreenSaverView
+
+@property (strong) WebView *webView;
 
 @end
