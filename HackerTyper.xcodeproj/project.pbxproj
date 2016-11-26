@@ -10,7 +10,6 @@
 		F4D41DE11AD46B110000D4F8 /* HackerTyperView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D41DE01AD46B110000D4F8 /* HackerTyperView.h */; };
 		F4D41DE31AD46B110000D4F8 /* HackerTyperView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D41DE21AD46B110000D4F8 /* HackerTyperView.m */; };
 		F4D41DF71AD46B320000D4F8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F4D41DF21AD46B320000D4F8 /* index.html */; };
-		F4D41DF91AD46D510000D4F8 /* HackerTyper.saver in CopyFiles */ = {isa = PBXBuildFile; fileRef = F4D41DDB1AD46B110000D4F8 /* HackerTyper.saver */; };
 		F4D41DFC1AD57EC00000D4F8 /* style.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = F4D41DEC1AD46B320000D4F8 /* style.css */; };
 		F4D41DFE1AD57ED10000D4F8 /* script.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = F4D41DEF1AD46B320000D4F8 /* script.js */; };
 		F4D41DFF1AD57ED10000D4F8 /* jquery.min.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = F4D41DEE1AD46B320000D4F8 /* jquery.min.js */; };
@@ -18,16 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F4D41DF81AD46D3B0000D4F8 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "~/Library/Screen Savers";
-			dstSubfolderSpec = 0;
-			files = (
-				F4D41DF91AD46D510000D4F8 /* HackerTyper.saver in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F4D41DFB1AD57EAD0000D4F8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -178,7 +167,6 @@
 				F4D41DD71AD46B110000D4F8 /* Frameworks */,
 				F4D41DD81AD46B110000D4F8 /* Headers */,
 				F4D41DD91AD46B110000D4F8 /* Resources */,
-				F4D41DF81AD46D3B0000D4F8 /* CopyFiles */,
 				F4D41DFB1AD57EAD0000D4F8 /* CopyFiles */,
 				F4D41DFD1AD57EC80000D4F8 /* CopyFiles */,
 				F4D41E001AD57EE10000D4F8 /* CopyFiles */,
@@ -363,6 +351,7 @@
 				F4D41DE81AD46B110000D4F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
