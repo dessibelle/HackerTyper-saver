@@ -27,7 +27,7 @@
         NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
         [self.webView.mainFrame loadRequest:urlRequest];
         
-        [self.webView setFrameLoadDelegate:self];
+        [self.webView setFrameLoadDelegate:(id<WebFrameLoadDelegate>)self];
         [self.webView.mainFrame.frameView setAllowsScrolling:NO];
         self.webView.alphaValue = 0.0;
         
